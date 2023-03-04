@@ -4,11 +4,11 @@ from contextlib import contextmanager
 from livestreamer import Livestreamer
 
 #specify path to save to ie "/Users/Joe/chaturbate"
-save_directory = "/Users/Joe/chaturbate"
+save_directory = "/content"
 #specify the path to the wishlist file ie "/Users/Joe/chaturbate/wanted.txt"
-wishlist = "/Users/Joe/chaturbate/wanted.txt"
+wishlist = "/content/wanted.txt"
 #set the genders you want in a list format: ['female', 'male', 'couple', 'trans']
-genders = ['female', 'couple']
+genders = ['male', 'couple']
 
 class TimeoutException(Exception): pass
 
